@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Adaptor2">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="RTEAdaptorWebService_DEMO.war" deploy-path="/" handle="module:/resource/RTEAdaptorWebService_DEMO/RTEAdaptorWebService_DEMO">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="PublishActiveTemplateManager.jar" deploy-path="/" handle="module:/resource/PublishActiveTemplateManager/PublishActiveTemplateManager">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="RTTService_DEMO.war" deploy-path="/" handle="module:/resource/RTTService_DEMO/RTTService_DEMO">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="Adaptor2.ear" deploy-path="/" handle="module:/resource/Adaptor2/Adaptor2">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="BiancaData.jar" deploy-path="/" handle="module:/resource/BiancaData/BiancaData">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ojdbc5.jar" deploy-path="/" handle="module:/classpath/lib/D:/jboss-4.2.3.GA/server/default/lib/ojdbc5.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

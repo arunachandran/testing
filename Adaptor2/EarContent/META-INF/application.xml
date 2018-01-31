@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:application="http://java.sun.com/xml/ns/javaee/application_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_5.xsd" id="Application_ID" version="5">
+  <display-name> 
+Adaptor2</display-name>
+  <module>
+    <web>
+      <web-uri>RTEAdaptorWebService_DEMO.war</web-uri>
+      <context-root>RTEAdaptor</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>BiancaData.jar</ejb>
+  </module>
+  <module>
+    <ejb>PublishActiveTemplateManager.jar</ejb>
+  </module>
+  <module>
+    <web>
+      <web-uri>RTTService_DEMO.war</web-uri>
+      <context-root>RTTService</context-root>
+    </web>
+  </module>
+  <module>
+    <java>ojdbc5.jar</java>
+  </module>
+  <library-directory>/</library-directory>
+</application>
